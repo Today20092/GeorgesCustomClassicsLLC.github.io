@@ -1,5 +1,5 @@
 ---
-description: "Geroge Baker's custom paint jobs in Tampa, Florida"
+description: "Geroge Baker's custom paint jobs, auto repair, and all vehicle work located in Tampa, Florida."
 paige:
   style: |
     #paige-collections,
@@ -15,12 +15,12 @@ title: "George's Custom Classics"
 
 {{< paige/image alt="Geroge Baker Business Card" class="object-fit-cover rounded-4 shadow" fetchpriority="high" height="20rem" loading="eager" process="webp" src="cover.png" width="100%" >}}
 
-<p class="display-5 fw-bold h2 text-center">An advanced Hugo theme</p>
+<p class="display-5 fw-bold h2 text-center">Shop</p>
 
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="col col-auto col-lg-7 px-0">
-            <p class="lead text-center">Paige is designed to put your content front and center, avoiding the typical clutter. The look is seamless and smooth, scalable and readable, portable and efficient. The layout is minimal and responsive, using verticality and white space to focus and delineate parts of the page. The implementation is flexible and extensible. It’s a versatile canvas that serves most web needs.</p>
+            <p class="lead text-center">George Baker customizes, restores, and <strong>highlights</strong> any car with his custom paint jobs. His work is located in the <a href="/gallery">gallery</a> section. His shop is located at <a href="https://www.google.com/maps/place/3H92%2BF3,+Tampa,+FL/@28.0686875,-82.4498125,976m/data=!3m2!1e3!4b1!4m5!3m4!1s0x88c2b782b3b9d1e1:0xff255e97d066f1e6!8m2!3d28.0686875!4d-82.4498125?hl=en">913 E Fletcher Ave, Tampa, FL 33612</a>. Feel free to call or text at <a href="tel:8132706683">813-270-6683</a>.</p>
         </div>
     </div>
 </div>
@@ -32,5 +32,6 @@ title: "George's Custom Classics"
 <br>
 
 <div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
+    {{< paige/icon class="bi bi-envelope-fill" name="E-mail" url="mailto:George@GeorgesCustomClassicLLC.com" >}}
     {{< paige/icon class="bi bi-telephone-outbound-fill" name="Phone Number" url="tel:8132706683" >}}
 </div>
